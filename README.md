@@ -22,7 +22,7 @@ La **cursiva**, en con un solo asterisco.
 Necesito tres asteriscos ***para que este en negrita y vursiva a la vez***
 
 #Insetamos una imagen
-![](imagenes%5CImage20230722155005.png)
+![](imagenes/Image20230722155005.png)
 
 ![Barboe](imagenes/Logo_barbie.png.webp)
 
