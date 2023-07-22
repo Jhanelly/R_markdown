@@ -1,0 +1,55 @@
+---
+title: "Reporte Data Banco"
+author: "Jhanelly Chalá"
+date: "2023-07-22"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+
+library(openxlsx)
+library(tidyverse)
+library(dplyr)
+data_banco <- read.xlsx("datos/data_banco.xlsx")
+```
+
+# Introducción
+```{r summary_data_banco, results=FALSE}
+summary(data_banco)
+```
+
+
+```{r manipulacion}
+data_banco <- data_banco %>% mutate(Sucursal=as.factor(Sucursal))
+```
+
+```{r grafico, echo=TRUE, fig.width=4, fig.height=5}
+ggplot(data_banco, aes(x=Tiempo_Servicio_seg, fill=Sucursal))+
+    geom_histogram() +
+    labs(title = "Distribución del Tiempo de Servicio en segundos",
+         y= "Cantidad 2", 
+         x= "Tiempo (segundos)")+
+    facet_wrap("Sucursal")
+```
+
+
+```{r grafico_2, out.width="75%"}
+ggplot(data_banco, aes(x=Tiempo_Servicio_seg, fill=Sucursal))+
+    geom_histogram() +
+    labs(title = "Distribución del Tiempo de Servicio en segundos",
+         y= "Cantidad 2", 
+         x= "Tiempo (segundos)")+
+    facet_wrap("Sucursal")
+```
+
+```{r grafico3, out.width="75%", fig.align="center", fig.cap="Frecuencia"}
+ggplot(data_banco, aes(x=Tiempo_Servicio_seg, fill=Sucursal))+
+    geom_histogram() +
+    labs(title = "Distribución del Tiempo de Servicio en segundos",
+         y= "Cantidad 2", 
+         x= "Tiempo (segundos)")+
+    facet_wrap("Sucursal")
+
+```
+
