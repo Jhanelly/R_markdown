@@ -21,6 +21,9 @@ La **cursiva**, en con un solo asterisco.
 
 Necesito tres asteriscos ***para que este en negrita y vursiva a la vez***
 
-#Insetamos una imagen 
+#Insetamos una imagen ![](imagenes%5CImage20230722155005.png)
 
-![Barbie](imagenes/Logo_barbie.png.webp)
+![Barboe](imagenes/Logo_barbie.png.webp)
+
+La pagina web del New Dimension es <https://github.com/Jhanelly/R_markdown/blob/main/README.md>\
+Tambien puedes ingresar haciendo click [aquí](https://github.com/Jhanelly/R_markdown/blob/main/README.md).
