@@ -4,7 +4,7 @@ En este reposiotio se almacena el codigo y los archivos del curso de R markdown.
 
 Aquí va mi siquiente párrafo Este es el tercer parrafo
 
-Para h![La Barbie](imagenes/Barbie_Logo.svg.webp)acer un enter son dos enter\
+Para hacer un enter son dos enter\
 Este es el quinto parrafo sin espacio
 
 Los profesores del New Dimensions son:
@@ -27,3 +27,9 @@ Necesito tres asteriscos ***para que este en negrita y vursiva a la vez***
 
 La pagina web del New Dimension es <https://github.com/Jhanelly/R_markdown/blob/main/README.md>\
 Tambien puedes ingresar haciendo click [aquí](https://github.com/Jhanelly/R_markdown/blob/main/README.md).
+
+# Titulo
+
+## Subtitulo
+
+### Sub-subtitulo
